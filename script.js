@@ -1,5 +1,5 @@
-const headingEl=document.getElementById('heading')
-const buttonEl=document.getElementById('button')
+const headingEl=document.getElementById('status')
+const buttonEl=document.getElementById('enterBtn')
 buttonEl.addEventListener('click',()=> {
 	headingEl.textContent='Entered Metaverse'
 })
